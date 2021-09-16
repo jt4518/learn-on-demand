@@ -11,6 +11,7 @@ models:
           tests:
             - not_null
         - name: payment_method
+          description: '{{ doc("payment_method")}}'
           tests:
             - not_null
             - accepted_values:

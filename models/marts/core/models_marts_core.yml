@@ -1,0 +1,7 @@
+version: 2
+
+models:
+    - name: dim_customers
+      description: One unique customer and their order history per row
+    - name: fct_orders
+      description: One unique order with payment per row
